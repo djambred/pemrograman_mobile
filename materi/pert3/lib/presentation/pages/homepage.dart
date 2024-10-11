@@ -20,7 +20,14 @@ class HomePage extends StatelessWidget {
               onPressed: () {
                 _controller.onGoToProfilePagePressed();
               },
-              child: Text('Profile'),
+              child: Text('Profiles With Image URL'),
+            ),
+            SizedBox(height: 10),
+            ElevatedButton(
+              onPressed: () {
+                _controller.onGoToProfilePageWithAssetsPressed();
+              },
+              child: Text('Profile With Assets'),
             ),
           ],
         ),
